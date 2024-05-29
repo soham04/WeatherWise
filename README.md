@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# WeatherWise App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WeatherWise is a dynamic weather application built using React Native and Expo. It fetches and displays real-time weather data using the OpenWeatherMap API, and integrates GPS-based location services to provide weather updates for the user's current location.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Real-time weather updates based on GPS location.
+- Beautiful, intuitive user interface with custom fonts and icons.
+- Display of current weather and weather forecast.
+- Error handling and user-friendly messages.
 
-   ```bash
-   npm install
-   ```
+## Screenshots
 
-2. Start the app
+### Home Screen
+![Home Screen Screenshot](./screenshots/WhatsApp%20Image%202024-05-29%20at%2000.36.55.jpeg)
+![Home Screen Screenshot](./screenshots/WhatsApp%20Image%202024-05-29%20at%2000.37.00.jpeg)
+![Home Screen Screenshot](./screenshots/WhatsApp%20Image%202024-05-29%20at%2000.37.03.jpeg)
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/weatherwise.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd weatherwise
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+4. Start the app:
+    ```sh
+    npm start
+    ```
 
-## Get a fresh project
+## Usage
 
-When you're ready, run:
+- Launch the app on your device or emulator.
+- Allow location permissions for accurate weather updates.
+- View current weather and forecast for your location.
 
-```bash
-npm run reset-project
-```
+## Technologies Used
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo
+- OpenWeatherMap API
+- Font Awesome for icons
+- NativeWind for styling
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Feel free to open issues or submit pull requests for improvements and bug fixes.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## License
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
